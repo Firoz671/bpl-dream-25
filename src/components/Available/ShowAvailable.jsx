@@ -33,7 +33,7 @@ const ShowAvailable = ({ players, setAvailableBalance, availableBalance,selected
         
     );
     setSelectedPlayers([...selectedPlayers,playerData])
-
+    toast("Player Added")
   };
   return (
     <div className="">
