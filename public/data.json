@@ -1,0 +1,152 @@
+[
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.5,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm medium",
+    "price": "$15,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 9.3,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm leg break",
+    "price": "$12,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 9.1,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "price": "$10,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 9.0,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "price": "$9,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "rating": 8.9,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "price": "$11,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 9.4,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": "$13,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-rounder",
+    "rating": 9.2,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm fast medium",
+    "price": "$14,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 8.8,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm leg break",
+    "price": "$8,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 8.7,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Right-arm leg break",
+    "price": "$10,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 9.0,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "price": "$12,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "All-rounder",
+    "rating": 9.0,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": "$11,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "rating": 8.6,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Left-arm fast medium",
+    "price": "$9,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "rating": 8.5,
+    "battingStyle": "Left-handed",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": "$8,000,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "rating": 8.9,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm fast",
+    "price": "$10,500,000"
+  },
+  {
+    "playerImage": "https://i.ibb.co.com/sh1KVsv/0ed58cccd51c4758e634d0b29e8cb0c2.jpg",
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicket-keeper Batsman",
+    "rating": 8.7,
+    "battingStyle": "Right-handed",
+    "bowlingStyle": "Right-arm off break",
+    "price": "$9,500,000"
+  }
+]
