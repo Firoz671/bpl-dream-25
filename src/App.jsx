@@ -4,6 +4,9 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Available from "./components/Available/Available.jsx";
 import Selected from "./components/Selected/Selected.jsx";
 import { ToastContainer} from 'react-toastify';
+import Footer from "./components/Footer/footer.jsx";
+import 'react-toastify/dist/ReactToastify.css';
+
 const fetchPlayer = async () => {
   const res = await fetch("/data.json");
   return res.json();
@@ -26,7 +29,7 @@ function App() {
   return (
     <div>
       <Navbar availableBalance={availableBalance}></Navbar>
-      <div className="max-w-[1200px] mx-auto mt-5 flex justify-between items-center">
+      <div className="max-w-[1200px] mx-auto mt-3 flex justify-between items-center font-bold">
         <h1>{toggle?'Available Players':`Selected Players ${selectedPlayers.length}/6`}</h1>
         <div className="join join-vertical lg:join-horizontal">
           <button
@@ -64,6 +67,7 @@ function App() {
         <Selected removePlayer={removePlayer} selectedPlayers={selectedPlayers} />
       )}
       <ToastContainer />
+      <Footer></Footer>
     </div>
   );
 }
