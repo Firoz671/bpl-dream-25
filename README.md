@@ -1,16 +1,86 @@
-# React + Vite
+# BPL Dream 25
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a web application for creating and managing a "BPL Dream 25" team. Users can select players from a list of available players and see their selected team.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+You can view the deployed application here: [loquacious-sunshine-0ef607.netlify.app](https://loquacious-sunshine-0ef607.netlify.app)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   View a list of available players.
+*   Select players to add to your dream team.
+*   View your selected team.
+*   Responsive design for use on different devices.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*   **Frontend:**
+    *   React
+    *   Vite
+    *   Tailwind CSS
+    *   daisyUI
+*   **Linting:**
+    *   ESLint
+
+## Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+*   Node.js and npm (or yarn) installed on your machine.
+
+### Installation
+
+1.  Clone the repo:
+    ```sh
+    git clone https://github.com/your-username/bpl-dream-25.git
+    ```
+2.  Install NPM packages:
+    ```sh
+    npm install
+    ```
+
+### Usage
+
+To run the application in development mode, use the following command:
+
+```sh
+npm run dev
+```
+
+This will start the development server, and you can view the application at `http://localhost:5173` (or another port if 5173 is in use).
+
+To build the application for production, use the following command:
+
+```sh
+npm run build
+```
+
+This will create a `dist` folder with the production-ready files.
+
+## Project Structure
+
+The project is structured as follows:
+
+```
+.
+├── public
+│   └── data.json       # JSON file with player data
+├── src
+│   ├── assets          # Images and other static assets
+│   ├── components      # React components
+│   │   ├── Available   # Components for available players
+│   │   ├── Footer      # Footer component
+│   │   ├── Navbar      # Navbar component
+│   │   └── Selected    # Components for selected players
+│   ├── App.css         # Main CSS file for the application
+│   ├── App.jsx         # Main application component
+│   ├── index.css       # Global CSS file
+│   └── main.jsx        # Entry point of the application
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
+```
