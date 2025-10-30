@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import Available from "./components/Available/Available.jsx";
 import Selected from "./components/Selected/Selected.jsx";
-import { ToastContainer} from 'react-toastify';
+import { toast, ToastContainer} from 'react-toastify';
 import Footer from "./components/Footer/footer.jsx";
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -24,6 +24,7 @@ function App() {
   const removePlayer = (p) =>{
   const filteredData = selectedPlayers.filter(ply=> ply.name!==p.name)
   setSelectedPlayers(filteredData)
+  toast("Player Removed")
   setAvailableBalance(availableBalance+parseInt(p.price.split("$").join("").split(",").join("")))
 }
   return (
